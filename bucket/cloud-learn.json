@@ -1,11 +1,11 @@
 {
-  "version": "1.2.5",
+  "version": "1.2.6-rc3",
   "description": "Local multi-cloud simulator (AWS/GCP/Azure) with real backends \u2014 full SDK + CLI parity for boto3, aws-cli, google-cloud-*, azure-sdk-*, Terraform.",
-  "homepage": "https://github.com/sudhirkumarganti/cloud-learn",
+  "homepage": "https://github.com/vyomi-cloud/appliance",
   "license": "MIT",
-  "url": "https://github.com/sudhirkumarganti/cloud-learn/releases/download/v1.2.5/cloud-learn-1.2.5.tar.gz",
-  "hash": "eaa8fd73ab749c73a212d595eb6378740f104cdaba82ee60606546fe53f546cf",
-  "extract_dir": "cloud-learn-1.2.5",
+  "url": "https://github.com/vyomi-cloud/appliance/releases/download/v1.2.6-rc3/cloud-learn-1.2.6-rc3.tar.gz",
+  "hash": "7763fd37025010f451bf4fbdab2ce71b17ab1c2ab526b9963bfe95c4eba31f06",
+  "extract_dir": "cloud-learn-1.2.6-rc3",
   "depends": [
     "extras/multipass"
   ],
@@ -18,7 +18,7 @@
   "post_install": [
     "Write-Host ''",
     "Write-Host '==> CloudLearn installed. Run `cloud-learn up` to start the simulator.' -ForegroundColor Green",
-    "Write-Host '==> Docs: https://github.com/sudhirkumarganti/cloud-learn' -ForegroundColor Cyan"
+    "Write-Host '==> Docs: https://github.com/vyomi-cloud/appliance' -ForegroundColor Cyan"
   ],
   "uninstaller": {
     "script": [
@@ -31,10 +31,10 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/sudhirkumarganti/cloud-learn"
+    "github": "https://github.com/vyomi-cloud/appliance"
   },
   "autoupdate": {
-    "url": "https://github.com/sudhirkumarganti/cloud-learn/releases/download/v$version/cloud-learn-$version.tar.gz",
+    "url": "https://github.com/vyomi-cloud/appliance/releases/download/v$version/cloud-learn-$version.tar.gz",
     "extract_dir": "cloud-learn-$version",
     "hash": {
       "url": "$baseurl/SHA256SUMS"
@@ -54,6 +54,6 @@
     "Stop with:",
     "  cloud-learn down",
     "",
-    "Full docs: https://github.com/sudhirkumarganti/cloud-learn/blob/main/README.md"
+    "Full docs: https://github.com/vyomi-cloud/appliance/blob/main/README.md"
   ]
 }
