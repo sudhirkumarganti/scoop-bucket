@@ -1,2 +1,2 @@
 # scoop-bucket
-Scoop bucket for CloudLearn — auto-bumped by release.yml on every tag
+Scoop bucket for Vyomi — auto-bumped by release.yml on every tag
